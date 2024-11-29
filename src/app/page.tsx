@@ -281,7 +281,7 @@ export default function Home() {
                 I felt helpless when my car broke down on that deserted road in
                 the middle of the night. But TowMe&apos;s rapid response restored my
                 faith in roadside assistance. Their kindness, expertise, and
-                efficiency got me home safely. I&apos;m grateful for their
+                efficiency got me home safely. I'm grateful for their
                 exceptional service and highly recommend them!
               </p>
             </div>
@@ -298,7 +298,7 @@ export default function Home() {
               Ready To Get Started
             </h2>
             <p className="text-base md:text-xl mb-6">
-              Get started today! Register for TowNaija&apos;s roadside assistance and
+              Get started today! Register for TowNaija roadside assistance and
               download our user-friendly app for easy access to our services.
               Your peace of mind awaits.
             </p>
