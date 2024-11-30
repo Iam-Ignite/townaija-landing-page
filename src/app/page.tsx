@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-[#0F172A] text-white">
       <Head>
-        <title>TowMe - Your Roadside Rescue Partner</title>
+        <title>TowNaija - Your Roadside Rescue Partner</title>
         <meta
           name="description"
           content="TowMe connects you with nearby tow truck operators for fast and reliable roadside assistance."
@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           property="og:title"
-          content="TowMe - Your Roadside Rescue Partner"
+          content="TowNaija - Your Roadside Rescue Partner"
         />
         <meta
           property="og:description"
@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="og:url" content="https://www.towme.com" />
         <meta
           name="twitter:title"
-          content="TowMe - Your Roadside Rescue Partner"
+          content="TowNaija - Your Roadside Rescue Partner"
         />
         <meta
           name="twitter:description"
@@ -32,7 +32,7 @@ export default function Home() {
         />
         <meta name="twitter:image" content="/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/game-icons_tow-truck.png" />
+        <link rel="icon" href="/src/app/favicon.png" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -265,8 +265,8 @@ export default function Home() {
             <Image
               src="/testmonie.png"
               className="relative z-30"
-              height={300}
-              width={300}
+              height={400}
+              width={400}
               alt="phone"
             />
           </div>
