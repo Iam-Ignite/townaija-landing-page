@@ -9,8 +9,9 @@ export default function Home() {
         <title>TowNaija - Your Roadside Rescue Partner</title>
         <meta
           name="description"
-          content="TowMe connects you with nearby tow truck operators for fast and reliable roadside assistance."
+          content="Tow Naija - Your trusted roadside assistance partner in Nigeria. Connect with reliable tow truck operators for fast, efficient, and affordable towing services. Available 24/7."
         />
+
         <meta name="robots" content="index, follow" />
         <meta
           property="og:title"
@@ -33,35 +34,34 @@ export default function Home() {
         <meta name="twitter:image" content="/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/src/app/favicon.png" />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `
       {
         "@context": "http://schema.org",
         "@type": "Organization",
-        "name": "TowMe",
-        "url": "https://www.towme.com",
-        "logo": "https://www.towme.com/logo.png",
+        "name": "Tow Naija",
+        "url": "https://www.townaija.com",
+        "logo": "https://www.townaija.com/logo.png",
+        "description": "Tow Naija offers fast, reliable roadside assistance across Nigeria. Contact us for towing, vehicle recovery, and more.",
+        "sameAs": [
+          "https://www.facebook.com/TowNaija",
+          "https://www.instagram.com/TowNaija",
+          "https://www.twitter.com/TowNaija"
+        ],
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+1 234 456 678 89",
+          "telephone": "+234 901 234 5678",
           "contactType": "Customer Service",
-          "areaServed": "US",
+          "areaServed": "NG",
           "availableLanguage": "English"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "1234 TowMe St.",
-          "addressLocality": "City",
-          "addressRegion": "State",
-          "postalCode": "12345",
-          "addressCountry": "US"
         }
       }
-    `,
-        }}
-      />
+    `
+  }}
+/>
+
       </Head>
 
       {/* Header */}
@@ -73,9 +73,12 @@ export default function Home() {
           {/* Text Content */}
           <div className="relative md:w-3/5 text-center md:text-left z-30">
             <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold">
-              Your Roadside 
+              Your Roadside
             </h1>
-            <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-4"> Rescue Partner</h1>
+            <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-4">
+              {" "}
+              Rescue Partner
+            </h1>
             <p className="text-lg md:text-2xl mb-8">
               TowMe connects you with nearby tow truck operators for fast and
               reliable roadside assistance.
@@ -120,7 +123,7 @@ export default function Home() {
               className="relative z-30"
               height={300}
               width={300}
-              alt="phone"
+             alt="Tow Naija App - Fast and Reliable Roadside Assistance"
             />
           </div>
         </div>
@@ -252,9 +255,7 @@ export default function Home() {
         {/* Header Section */}
         <div className="text-center text-white relative z-40 mb-8 md:mb-10">
           <h2 className="text-xl md:text-2xl font-medium">Testimonial</h2>
-          <h2 className="text-3xl md:text-6xl font-bold">
-            What Our Users 
-          </h2>
+          <h2 className="text-3xl md:text-6xl font-bold">What Our Users</h2>
           <h2 className="text-3xl md:text-6xl font-bold">Say About Us?</h2>
         </div>
 
@@ -279,10 +280,10 @@ export default function Home() {
               </h2>
               <p className="text-base md:text-xl font-normal leading-7 md:leading-8">
                 I felt helpless when my car broke down on that deserted road in
-                the middle of the night. But TowMe&apos;s rapid response restored my
-                faith in roadside assistance. Their kindness, expertise, and
-                efficiency got me home safely. I&apos;m grateful for their
-                exceptional service and highly recommend them!
+                the middle of the night. But TowMe&apos;s rapid response
+                restored my faith in roadside assistance. Their kindness,
+                expertise, and efficiency got me home safely. I&apos;m grateful
+                for their exceptional service and highly recommend them!
               </p>
             </div>
           </div>
