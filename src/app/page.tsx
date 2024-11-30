@@ -281,7 +281,7 @@ export default function Home() {
                 I felt helpless when my car broke down on that deserted road in
                 the middle of the night. But TowMe&apos;s rapid response restored my
                 faith in roadside assistance. Their kindness, expertise, and
-                efficiency got me home safely. I'm grateful for their
+                efficiency got me home safely. I&apos;m grateful for their
                 exceptional service and highly recommend them!
               </p>
             </div>
