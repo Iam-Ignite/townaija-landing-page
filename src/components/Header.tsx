@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className="py-4 px-6 md:px-28 relative z-50 flex justify-between items-center bg-[#021639] shadow-md">
+    <header className="py-4 px-6 md:px-28 relative z-50 flex justify-between items-center bg-[#0216] shadow-md">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <div className="text-2xl flex items-center gap-2 font-bold">
