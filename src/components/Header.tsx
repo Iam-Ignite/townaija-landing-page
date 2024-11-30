@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className="py-4 px-6 md:px-28 relative z-50 flex justify-between items-center bg-[#0216] shadow-md">
+    <header className="py-4 px-6 md:px-28 relative z-50 flex justify-between items-center bg-[#021639] shadow-md">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <div className="text-2xl flex items-center gap-2 font-bold">
@@ -63,7 +63,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {menuOpen && (
-        <nav className="absolute top-16 left-0 w-full bg-[#02163983] text-white md:hidden">
+        <nav className="absolute top-16 left-0 w-full bg-[#021639] text-white md:hidden">
           <ul className="flex flex-col items-center space-y-4 py-4">
             <li>
               <a
