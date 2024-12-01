@@ -4,9 +4,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[#0F172A] text-white">
+    <>
       <Head>
         <title>TowNaija - Your Roadside Rescue Partner</title>
+        <link rel="icon" href="/favicon.ico" />
+
         <meta
           name="description"
           content="Tow Naija - Your trusted roadside assistance partner in Nigeria. Connect with reliable tow truck operators for fast, efficient, and affordable towing services. Available 24/7."
@@ -19,7 +21,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="TowMe connects you with nearby tow truck operators for fast and reliable roadside assistance."
+          content="TowNaija connects you with nearby tow truck operators for fast and reliable roadside assistance."
         />
         <meta property="og:image" content="/og-image.jpg" />
         <meta property="og:url" content="https://www.towme.com" />
@@ -29,11 +31,10 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="TowMe connects you with nearby tow truck operators for fast and reliable roadside assistance."
+          content="TowNaija connects you with nearby tow truck operators for fast and reliable roadside assistance."
         />
         <meta name="twitter:image" content="/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/src/app/favicon.png" />
         <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
@@ -80,7 +81,7 @@ export default function Home() {
               Rescue Partner
             </h1>
             <p className="text-lg md:text-2xl mb-8">
-              TowMe connects you with nearby tow truck operators for fast and
+              TowNaija connects you with nearby tow truck operators for fast and
               reliable roadside assistance.
             </p>
             <div className="flex justify-center md:justify-start items-center gap-2">
@@ -408,6 +409,6 @@ export default function Home() {
           <p>Developed by Didi Technologies</p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
