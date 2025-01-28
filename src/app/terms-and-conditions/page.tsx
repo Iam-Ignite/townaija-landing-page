@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Terms() {
   return (
@@ -20,10 +19,10 @@ export default function Terms() {
             1. Introduction
           </h2>
           <p>
-            Tow Naija is a mobile application ("App") that connects users
-            ("Users") with a network of independent tow vehicle operators
-            ("Operators") for towing services in Nigeria. These Terms and
-            Conditions ("Terms") govern your use of the App and the services
+            Tow Naija is a mobile application (`&quot;App`&quot;) that connects users
+            (`&quot;Users`&quot;) with a network of independent tow vehicle operators
+            (`&quot;Operators`&quot;) for towing services in Nigeria. These Terms and
+            Conditions (`&quot;Terms`&quot;) govern your use of the App and the services
             provided through it.
           </p>
         </section>
@@ -54,7 +53,7 @@ export default function Terms() {
           <h2 className="text-yellow-400 text-xl border-b border-yellow-400 pb-1">
             4. Account Registration
           </h2>
-          <p>To use the App, you must create an account ("Account"). You agree to provide accurate, complete, and up-to-date information during the registration process. You are responsible for maintaining the confidentiality of your Account login credentials.</p>
+          <p>To use the App, you must create an account (`&quot;Account`&quot;). You agree to provide accurate, complete, and up-to-date information during the registration process. You are responsible for maintaining the confidentiality of your Account login credentials.</p>
         </section>
 
         <section className="mb-6">
@@ -130,7 +129,7 @@ export default function Terms() {
             11. Disclaimer of Warranties
           </h2>
           <p>
-            The App and services provided through it are provided on an "as is" and "as available" basis.
+            The App and services provided through it are provided on an `&quot;as is`&quot; and `&quot;as available`&quot; basis.
             Tow Naija disclaims all warranties, express or implied, including but not limited to implied warranties
             of merchantability, fitness for a particular purpose, and non-infringement.
           </p>
@@ -158,8 +157,7 @@ export default function Terms() {
             the App or services provided through it.
           </p>
         </section>
-
-        {/* 14. Governing Law */}
+{/* 14. Governing Law */}
         <section className="mb-6">
           <h2 className="text-yellow-400 text-xl border-b border-yellow-400 pb-1">
             14. Governing Law
