@@ -227,7 +227,7 @@ export default function Home() {
                 Why Choose TowNaija
               </h2>
               <p className="text-sm md:text-base mb-6 md:mb-12">
-                TowMe provides 24/7 emergency assistance, connecting you with
+                TowNaija provides 24/7 emergency assistance, connecting you with
                 nearby, background-checked operators within 30 minutes,
                 featuring real-time tracking, transparent pricing, and
                 comprehensive national coverage.
@@ -374,8 +374,8 @@ export default function Home() {
             <h3 className="text-lg font-semibold mb-2">Legal</h3>
             <ul>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Terms Of Use
+                <a href="/terms-and-conditions" className="text-gray-400 hover:text-white">
+                  Terms Of Conditions
                 </a>
               </li>
               <li>
