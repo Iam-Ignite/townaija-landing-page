@@ -19,8 +19,8 @@ export default function PrivacyPolicy() {
             1. Introduction
           </h2>
           <p>
-            Tow Naija ("App") is a mobile application that connects users ("Users")
-            with a network of independent tow vehicle operators ("Operators") for
+            Tow Naija (&quot;App&quot;) is a mobile application that connects users (&quot;Users&quot;)
+            with a network of independent tow vehicle operators (&quot;Operators&quot;) for
             towing services in Nigeria. This Privacy Policy explains how we collect,
             use, and protect your data when using our services.
           </p>
