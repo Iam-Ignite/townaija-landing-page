@@ -195,7 +195,7 @@ export default function Terms() {
             17. Contact Us
           </h2>
           <p>
-            If you have any questions or concerns about these Terms, please contact us at [insert contact email or phone number].
+            If you have any questions or concerns about these Terms, please contact us at townaija01@gmail.com.
           </p>
         </section>
 
@@ -213,8 +213,8 @@ export default function Terms() {
               />{" "}
               Tow Naija
             </div>
-            <p>Email: Help@TowMe.Com</p>
-            <p>Phone: +1 234 456 678 89</p>
+            <p>Email: townaija01@gmail.com</p>
+            <p>Phone: +2348050768489</p>
             <button className="mt-4 bg-[#FACC15] text-[#0A122A] py-2 px-4 rounded-md shadow-md font-medium">
               Become A Driver
             </button>
@@ -225,12 +225,12 @@ export default function Terms() {
             <h3 className="text-lg font-semibold mb-2">Legal</h3>
             <ul>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Terms Of Use
+                <a href="/terms-and-conditions" className="text-gray-400 hover:text-white">
+                  Terms and Condition
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="/privacy-policy" className="text-gray-400 hover:text-white">
                   Privacy Policy
                 </a>
               </li>

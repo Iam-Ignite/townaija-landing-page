@@ -362,8 +362,8 @@ export default function Home() {
               />{" "}
               Tow Naija
             </div>
-            <p>Email: Help@TowMe.Com</p>
-            <p>Phone: +1 234 456 678 89</p>
+            <p>Email: townaija01@gmail.com    </p>
+            <p>Phone: +2348050768489</p>
             <button className="mt-4 bg-[#FACC15] text-[#0A122A] py-2 px-4 rounded-md shadow-md font-medium">
               Become A Driver
             </button>
